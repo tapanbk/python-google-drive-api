@@ -1,0 +1,11 @@
+.credentials/*
+files/*
+*.pyc
+*~
+_pycache_
+venv
+.DS_Store
+.idea/
+
+!files/.gitkeep
+!.credentials/.gitkeep
