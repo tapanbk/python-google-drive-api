@@ -1,43 +1,45 @@
 
-# python examples for google drive API
-## Installation and setup Steps
+## python examples for google drive API
+#### Installation and setup Steps
 
-- Generate and download **credentials.json** file from  [Google Developer Console](https://console.developers.google.com/apis/library)
+1. ##### Generate and download **credentials.json** file from  [Google Developer Console](https://console.developers.google.com/apis/library)
 
-- Create new folder **.credentials** and move that json file into **.credentials** folder
-- install pip using command
-  > sudo apt-get install python3-pip
+2. ##### Create new folder **.credentials** and move that json file into **.credentials** folder
+
+3. ##### Install pip using command
+
+    <code>sudo apt-get install python3-pip</code>
   
-- Install Virtualenv package used for creating virtual environment for python using command
+3. ##### Install Virtualenv package used for creating virtual environment for python using command
 
-  > sudo pip3 install virtualenv using command
+    <code>sudo pip3 install virtualenv using command</code>
   
-- Create new virtualenv named venv using command
+4. ##### Create new virtualenv named venv using command
 
-  > virtualenv venv 
+    <code>virtualenv venv</code> 
   
-- Activate venv using command
+5. ##### Activate venv using command
 
-  > source venv/bin/activate
+    <code>source venv/bin/activate</code>
   
-- Install dependencies using command
+6. ##### Install dependencies using command
 
-  > pip install -r requirements.txt
+    <code>pip install -r requirements.txt</code>
 
-- Create **files** directory and move files to upload in the files directory
+7. ##### Create **files** directory and move files to upload in the files directory
+ 
+8. ##### Run main.py file
+  - Please mention proper file name in file upload function as parameter
 
-- Run main.py file
-  > Please mention proper file name in file upload functions as parameter
-
-  > python main.py
+    <code>python main.py</code>
     
 
-## Currently available python examples for google drive API
-- Upload file to a root path of the drive
-- Download file from root path of the drive
-- Create folder in the drive
-- Upload file to folder
-- Search file in all folder of drive
-- Search file inside a folder
-- Delete file
-- Empty files from trash
+#### Currently available python examples for google drive API
+1. Upload file to a root path of the drive
+1. Download file from root path of the drive
+1. Create folder in the drive
+1. Upload file to folder
+1. Search file in all folder of drive
+1. Search file inside a folder
+1. Delete file
+1. Empty files from trash
