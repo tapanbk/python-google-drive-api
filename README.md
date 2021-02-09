@@ -12,7 +12,7 @@
   
 3. ##### Install Virtualenv package used for creating virtual environment for python using command
 
-    <code>sudo pip3 install virtualenv using command</code>
+    <code>sudo pip3 install virtualenv</code>
   
 4. ##### Create new virtualenv named venv using command
 
